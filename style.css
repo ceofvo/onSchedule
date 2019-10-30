@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-background {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("lagos.jpg");
+    background-color: skyblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.footer{
+    display: flex;
+    height: 20vh;
+}
+
+.time {
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+
+/*.weather .temp-text {
+    font-size: 5rem;
+}*/
